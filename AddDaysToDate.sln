@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDaysToDate", "AddDaysToDate\AddDaysToDate.csproj", "{06DDAF76-9E33-43A7-BD1D-6D28D23BD9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddDaysToDate.Test", "AddDaysToDate.Test\AddDaysToDate.Test.csproj", "{EEE55102-3A0F-4355-9F4B-CC79D53B3439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06DDAF76-9E33-43A7-BD1D-6D28D23BD9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DDAF76-9E33-43A7-BD1D-6D28D23BD9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DDAF76-9E33-43A7-BD1D-6D28D23BD9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DDAF76-9E33-43A7-BD1D-6D28D23BD9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE55102-3A0F-4355-9F4B-CC79D53B3439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE55102-3A0F-4355-9F4B-CC79D53B3439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE55102-3A0F-4355-9F4B-CC79D53B3439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE55102-3A0F-4355-9F4B-CC79D53B3439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFDB3099-105D-4F60-95D8-2CCE62BEFD70}
+	EndGlobalSection
+EndGlobal
