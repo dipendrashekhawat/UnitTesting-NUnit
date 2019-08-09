@@ -38,5 +38,17 @@ namespace Tests
             //Assert
             Assert.That(result, Is.LessThan(givenDate));
         }
+
+        [Test]
+        public void NumberOfDays_WhenNumberOfDaysIsZero_ShouldReturnSameDate()
+        {
+            // Arrange
+            var givenDate = Convert.ToDateTime("05-01-2019");
+            var numberOfDays = 0;
+
+            //Act and Assert
+            var result = Program.NumberOfDays(numberOfDays, givenDate);
+            Assert.AreEqual(givenDate, result);
+        }
     }
 }
